@@ -18,7 +18,16 @@ $ npm install -g monaca ionic
 $ monaca create myapp --url https://github.com/monaca-templates/ionic-angular-tabbar/archive/master.zip
 ```
 
-3. Use Ionic CLI to build (transpile) or serve
+Note: You'll be asked if you want to sync to Monaca Cloud. Press `Y` to continue.
+
+3. Chdir to the app dir & run npm install
+
+```
+$ cd myapp
+$ npm install
+```
+
+4. Use Ionic CLI to build (transpile) or serve
 
 ```
 $ cd myapp
@@ -26,7 +35,7 @@ $ ionic serve
 $ ionic build
 ```
 
-4. Use Monaca CLI to connect to debugger or perform remote build
+5. Use Monaca CLI to connect to debugger or perform remote build
 
 ```
 # Start remote build

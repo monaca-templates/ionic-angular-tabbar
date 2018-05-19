@@ -1,10 +1,26 @@
-# Ionic + Angular template for Monaca
+# Ionic 3 + Angular 5 template for Monaca
 
 ## What is this?
 
 Monaca is a cloud-based Cordova development platform. With this template, you can easily get started with Ionic hybrid app.
 
-## Getting started
+## Using with Monaca Cloud IDE
+
+1. Open Terminal window by pressing (+) icon
+
+2. Run NPM install
+
+```
+$ npm install
+```
+
+3. Run Ionic serve
+
+```
+$ npx ionic serve
+```
+
+## Using with Command Line Tool
 
 1. Install Monaca & Ionic CLI
 
